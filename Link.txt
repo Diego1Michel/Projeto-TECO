@@ -1,0 +1,45 @@
+.top img {
+  inline-size: 200px;
+  justify-content: left;
+}
+
+.top nav {
+  width: 600px;
+  margin: 0px;
+  display: flex;
+  justify-content: right;
+}
+
+.top nav a{
+  padding: 20px 50px;
+  background-color: #064210; 
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  border-radius: 8px;
+ }
+
+ .top nav a:hover {
+   color:#000;
+   font-weight: bold;
+   text-decoration: underline;
+   
+ }
+
+
+
+
+
+
+ <div id="media">
+    <iframe class="video" src="https://www.youtube.com/embed/Qo2oU_6bYaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
+
+
+
+
+
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+      <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
